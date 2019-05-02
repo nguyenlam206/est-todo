@@ -1,0 +1,20 @@
+{
+    "name": "lam/todo",
+    "description": "Do test project EST",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nguyen Canh Lam",
+            "email": "nguyenlam206.93@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
